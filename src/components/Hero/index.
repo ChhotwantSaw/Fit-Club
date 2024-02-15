@@ -1,0 +1,12 @@
+<html>
+<head></head>
+<body>
+<form>
+<input type="text">
+<input type="number"
+<submit> submit</submit>
+</form>
+
+
+</body>
+</html>

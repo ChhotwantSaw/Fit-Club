@@ -1,0 +1,43 @@
+.footer{
+    position: relative;
+}
+.footer>div{
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+    padding: 7rem 0;
+}
+.footer>div>:nth-child(1)>img{
+    width:2rem;
+}
+.footer>div>:nth-child(1)>img{
+    cursor: pointer;
+}
+.footer>div>:nth-child(1){
+    display:flex;
+    justify-content: center;
+    gap:4rem;
+}
+.footer>div>:nth-child(2)>img{
+    width:10rem;
+}
+.footer>div>:nth-child(2){
+    display:flex;
+    justify-content: center;
+}
+.blur-foot-1{
+    bottom: -15rem;
+    left: 15%;
+    width: 26rem;
+    height: 12rem;
+    filter: blur(200px);
+    background: rgb(255,115,0);
+}
+.blur-foot-2{
+    bottom: -18rem;
+    right: 15%;
+    width: 26rem;
+    height: 12rem;
+    filter: blur(200px);
+    background: red;
+}

@@ -1,0 +1,96 @@
+.joins{
+    padding: 0 2rem;
+    display: flex;
+    /* flex-direction: column; */
+    gap:3rem;
+}
+.join{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+.join>:nth-child(1){
+    /* display: inline; */
+    width:11rem;
+    height:0.3rem;
+    border-radius: 10px;
+    background:#8EC3B0;
+}
+.join>:nth-child(2){
+    display: flex;
+    gap:1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+.join>:nth-child(3){
+    display: flex;
+    gap:1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+.join-r{
+    flex:1;
+    display: flex;
+    position: relative;
+    
+}
+.join-r>div{
+    display: flex;
+    gap:3rem;
+    width:fit-content;
+    height: fit-content;
+    padding: 1.2rem 2rem;
+    background: var(--caloryCard);
+    position: absolute;
+    bottom:0.2rem;
+    left:3rem;
+    
+}
+.join-r>div>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+.join-r>div>input::placeholder{
+    color: white;
+}
+.join-r>div>button{
+    height: 2.5rem;
+    width:5.5rem;
+    font-weight: bold;
+    color: white;
+    background: var(--orange);
+    border: none;
+}
+.join-r>div>button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .joins{
+        flex-direction: column;
+    }
+    .join>:nth-child(2){
+        flex-direction: column;
+    }
+    .join>:nth-child(3){
+        flex-direction: column;
+        
+    }
+    
+
+    .join-r>div{
+        position: relative;
+        left:0;
+        transform: scale(0.6);
+        margin-left: -4rem;
+        
+
+    }
+}
